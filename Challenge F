@@ -1,0 +1,18 @@
+# Welcome to Sonic Pi
+num=21 #bc we start counting at 1
+
+87. times do
+  play num
+  print(num)
+  sleep 0.5
+  num = num + 1
+end
+
+87. times do
+  play num
+  print(num)
+  sleep 0.5
+  num = num - 1
+end
+sample  :drum_cymbal_soft
+print("HAPPY NEW YEAR")
